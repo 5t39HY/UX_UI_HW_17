@@ -7,29 +7,30 @@
     display: inline-block;
     vertical-align: top;
 }
+
 .logo{
-    width: 23%;
+    width: 30%;
     padding: 1%;
     text-align: center;
 }
+
 nav{
-    background-color: red;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 20px;
 } 
 
 nav ul { 
-    background-color: aquamarine; 
     display: flex; 
     justify-content: center;
     align-items: center;
     margin: 0;
+   
 }
 
 #heroImg {
-    background-color: blueviolet; 
+    background-color: #e3a96671; 
     display: flex; 
     justify-content: center;
 }
@@ -37,21 +38,22 @@ nav ul {
 .content{
     width: 500px;
     margin: 0 auto; 
-    background-color: blue; 
+    padding: 10px;
     display: flex; 
     flex-direction: column;
     align-items: center;
+    
 }
+
 footer{
-    background-color: 373738;
-    padding: 25px;
+    background-color: #E3A966;
+    padding: 10px;
     display: flex;
     justify-content: center;
 
 } 
 
 .footerMenu {
-    background-color: blue; 
     display: flex; 
     justify-content: center; 
     align-items: center;
@@ -63,9 +65,7 @@ footer ul {
     flex: wrap;
     width: 100%; 
     padding: 25px;
-    background-color: aqua;
 }
-
 
 
 
