@@ -2,6 +2,29 @@
     margin: 0;
     padding: 0;
 }
+div.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #FC961F;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar a{
+    display: block;
+    color: white;
+    margin: 0 auto;
+    padding: 25px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #FFF974;
+    color: #FC961F;
+    align-items: center;
+    justify-content: center;
+}
 
 .inline-block{
     display: inline-block;
@@ -11,46 +34,60 @@
 .logo{
     width: 30%;
     padding: 1%;
-    text-align: center;
+    
 }
 
-nav{
-    width: 100%;
+.heroContent {
+    
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-} 
-
-nav ul { 
-    display: flex; 
     justify-content: center;
-    align-items: center;
-    margin: 0;
-   
-}
-
-#heroImg {
-    background-color: #e3a96671; 
-    display: flex; 
-    justify-content: center;
+    margin-left: 100px;
 }
 
 .content{
-    width: 500px;
+    font-size: 48px;
+    font-family: 'Abhaya Libre', serif;
+    color: brown;
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px; 
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    
+}
+.content p1{
+    font-size: 25px;
+    font-family: 'Abhaya Libre', serif;
+    color: brown;
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px; 
+    display: float;
+    flex-wrap: wrap; 
+    
+
+}
+.content .profilePic{
+    display: inline-block;
+    align-items: center;
+
+}
+.profilePic {
+    width: 200px;
+    background-color: #FFF974;
     margin: 0 auto; 
-    padding: 10px;
+    padding: 15px;
     display: flex; 
     flex-direction: column;
     align-items: center;
-    
 }
 
 footer{
     background-color: #E3A966;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: center;
-
 } 
 
 .footerMenu {
@@ -64,7 +101,7 @@ footer ul {
     align-items: center;
     flex: wrap;
     width: 100%; 
-    padding: 25px;
+    padding: 15px;
 }
 
 
